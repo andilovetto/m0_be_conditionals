@@ -53,21 +53,21 @@ puts 'is number_students less than or equal to 21?', number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# prints to the terminal, ruby evaluates whether 4 is less than 9, prints true to the terminal
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# assigning the value of 3 to the variable named books. prints to the terminal, ruby evaluates if the value of 4 is less than the value of books; prints false to the terminal
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# assigning the value of 6 to the variable named friends; assigning the value of 2 to the variable named siblings; prints to the terminal, ruby evaluates if the value of friends is greater than the value of siblings; prints true to the terminal
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# assigning the value of 9 to the variable named attendees; assigning the value 8 to the variable named meals; prints to the terminal, ruby evaluates if the value of attendees is not not equal to the value of meals; prints true to the terminal 
 
 
 #-------------------
