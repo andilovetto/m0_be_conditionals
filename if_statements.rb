@@ -26,12 +26,16 @@ end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
-
+weather = 'foggy'
+if weather == 'foggy'
+  p "grab a coat!"
+end
 
 ##################
 # Using the num_quarters variable defined below, determine
 # if you have enough money to buy a gumball. A gumball costs
 # two quarters.
+
 
 # Right now, the program will print
 # out both "I have enough money for a gumball" and
@@ -42,11 +46,18 @@ end
 # to make sure both conditions can be achieved.
 
 num_quarters = 0
-
+if num_quarters >= 2
 puts "I have enough money for a gumball"
+else
+puts "Better ask Mom!"
+end
+
+num_quarters = 3
+if num_quarters >= 2
+puts "Cha-ching! It's bubble blowing time!"
+else
 puts "I don't have enough money for a gumball"
-
-
+end
 #####################
 # Using the variables defined below, write code that will tell you
 # if you have the ingredients to make a pizza. A pizza requires 
@@ -57,7 +68,26 @@ puts "I don't have enough money for a gumball"
 # If cups_of_flour = 5 and has_sauce = false, print "I cannot make pizza"
 # If cups_of_flour = 2 and has_sauce = true, print "I can make pizza"
 # If cups_of_flour = 3 and has_sauce = true, print "I can make pizza"
-
+cups_of_flour = 1
+has_sauce = true
+if cups_of_flour == 1 && has_sauce == true
+  p "I cannot make pizza"
+end
+cups_of_flour = 5
+has_sauce = false
+if cups_of_flour == 5 && has_sauce == false
+  p "I cannot make pizza"
+end
+cups_of_flour = 2 
+has_sauce = true
+if cups_of_flour = 2 && has_sauce = true
+  p "I can make pizza"
+end
+cups_of_flour = 3 
+has_sauce = true
+if cups_of_flour = 3 && has_sauce = true 
+  p "I can make pizza"
+end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
